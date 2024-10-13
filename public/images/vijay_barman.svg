@@ -1,0 +1,15 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <style>
+    .letter { font-family: Arial, poppins; font-size: 35px; fill: white; letter-spacing: 5px; } /* Adjust letter-spacing */
+  </style>
+  <g>
+    <text>
+      <textPath href="#circle" startOffset="0%">
+        <tspan class="letter">Vijay Barman • Vijay Barman •</tspan>
+      </textPath>
+    </text>
+  </g>
+  <path id="circle" d="M0,100 A100,100 0 0,1 0,-100 A100,100 0 0,1 0,100" fill="none"/>
+</svg>
+
