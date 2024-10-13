@@ -60,9 +60,8 @@ Have a seat and enjoy the ride!`,
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        title: "Services",
-        subtitle: `Do you want a drink?
-We have a wide range of beverages!`,
+        title: "Dummy",
+        subtitle: `lorem ipsum`,
       },
       {
         cameraRailDist: -1,
@@ -71,8 +70,8 @@ We have a wide range of beverages!`,
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        title: "Fear of flying?",
-        subtitle: `Our flight attendants will help you have a great journey`,
+        title: "Dummy",
+        subtitle: `lorem ipsum`,
       },
       {
         cameraRailDist: 1.5,
@@ -81,8 +80,8 @@ We have a wide range of beverages!`,
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        title: "Movies",
-        subtitle: `We provide a large selection of medias, we highly recommend you Porco Rosso during the flight`,
+        title: "Dummy",
+        subtitle: `lorem ipsum`,
       },
     ];
   }, []);
