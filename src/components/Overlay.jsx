@@ -1,9 +1,11 @@
+
 import { useProgress } from "@react-three/drei";
 import { usePlay } from "../contexts/Play";
 
-export const Overlay = () => {
+export const Overlay = ({ onExplore }) => {  // Accept the `onExplore` prop
   const { progress } = useProgress();
   const { play, end, setPlay, hasScroll } = usePlay();
+
   return (
     <div
       className={`overlay ${play ? "overlay--disable" : ""}
@@ -24,7 +26,10 @@ export const Overlay = () => {
           <button
             className="explore"
             onClick={() => {
-              setPlay(true);
+              setPlay(true); // Continue setting play state
+              if (onExplore) {
+                onExplore();  // Trigger the `onExplore` prop function when "Explore" is clicked
+              }
             }}
           >
             Explore
