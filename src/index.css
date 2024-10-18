@@ -125,7 +125,7 @@ body {
   font-family: "DM Serif Display", serif;
   font-size: 1.25rem;
   letter-spacing: 0.25rem;
-  color: #3535cc;
+  color: #14532d;
   border-radius: 32px;
   cursor: pointer;
   display: inline-block;
@@ -151,7 +151,7 @@ body {
 
 .explore:before {
   content: "";
-  background: #3535cc;
+  background: #022c22;
   position: absolute;
   width: 0%;
   bottom: 0;

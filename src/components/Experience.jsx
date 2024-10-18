@@ -50,7 +50,8 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        subtitle: `"Happy 25th! You're now in version 2.5, fully optimized but still in beta—let's hope there are no major bugs!"
+        title: "Happy 25th!",
+        subtitle: `"You're now in version 2.5, fully optimized but still in beta, let's hope there are no major bugs!"
 Have a seat and enjoy the ride!`,
       },
       {
@@ -60,8 +61,8 @@ Have a seat and enjoy the ride!`,
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        title: "Dummy",
-        subtitle: `lorem ipsum`,
+        title: "Another year, another version release! ",
+        subtitle: `You must be written in Python because you keep getting better with less effort! Bas income bhi jaldi badd jae :)`,
       },
       {
         cameraRailDist: -1,
@@ -70,8 +71,8 @@ Have a seat and enjoy the ride!`,
           curvePoints[3].y,
           curvePoints[3].z
         ),
-        title: "Dummy",
-        subtitle: `lorem ipsum`,
+        title: "",
+        subtitle: `:)`,
       },
       {
         cameraRailDist: 1.5,
@@ -80,8 +81,8 @@ Have a seat and enjoy the ride!`,
           curvePoints[4].y,
           curvePoints[4].z - 12
         ),
-        title: "Dummy",
-        subtitle: `lorem ipsum`,
+        title: "Images are just PAIN",
+        subtitle: `just couldn't add moving images :(`,
       },
     ];
   }, []);
@@ -427,8 +428,8 @@ Have a seat and enjoy the ride!`,
 
   const tl = useRef();
   const backgroundColors = useRef({
-    colorA: "#3535cc",
-    colorB: "#abaadd",
+    colorA: "#047857",
+    colorB: "#6ee7b7",
   });
 
   const planeInTl = useRef();
@@ -449,8 +450,8 @@ Have a seat and enjoy the ride!`,
     });
     tl.current.to(backgroundColors.current, {
       duration: 1,
-      colorA: "#81318b",
-      colorB: "#55ab8f",
+      colorA: "#4c1d95",
+      colorB: "#c084fc",
     });
 
     tl.current.pause();
