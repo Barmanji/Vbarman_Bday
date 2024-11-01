@@ -50,9 +50,8 @@ export const Experience = () => {
           curvePoints[1].y,
           curvePoints[1].z
         ),
-        title: "Happy 25th!",
-        subtitle: `"You're now in version 2.5, fully optimized but still in beta, let's hope there are no major bugs!"
-Have a seat and enjoy the ride!`,
+        title: "Happy XXth!",
+        subtitle: `Major Title are removed for privace of my brother, clone repo and add yours if you want to surprise someone`,
       },
       {
         cameraRailDist: 1.5,
@@ -62,7 +61,7 @@ Have a seat and enjoy the ride!`,
           curvePoints[2].z
         ),
         title: "Another year, another version release! ",
-        subtitle: `You must be written in Python because you keep getting better with less effort! Bas income bhi jaldi badd jae :)`,
+        subtitle: `*** Removed for privacy *** add anything if you want!`,
       },
       {
         cameraRailDist: -1,

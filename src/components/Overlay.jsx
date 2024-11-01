@@ -37,7 +37,7 @@ export const Overlay = ({ onExplore }) => {  // Accept the `onExplore` prop
         </div>
       )}
       <div className={`outro ${end ? "outro--appear" : ""}`}>
-        <p className="outro__text">Happy 25th, bro! You’re officially halfway to 50.</p>
+        <p className="outro__text">XXX -add your line if you want(deleted for privacy)- XXX.</p>
       </div>
     </div>
   );
